@@ -1,0 +1,56 @@
+/*GLOBAL*/
+@import url("./global/global.css");
+@import url("./utilidades/tipografia.css");
+@import url("./utilidades/cores.css");
+
+/*HEADER*/
+@import url("./global/header.css");
+
+/*UTILIDADES*/
+@import url("./utilidades/componentes.css");
+@import url("./utilidades/formulario.css");
+
+/*INTRODUÇÃO*/
+@import url("./home/introducao.css");
+
+/*LISTA DE MOTOS*/
+@import url("./motos/motos-lista.css");
+
+/*LISTA DE MOTOS*/
+@import url("./home/tecnologia.css");
+
+/*LISTA DE PARCEIROS*/
+@import url("./home/parceiros.css");
+
+/*LISTA DE DEPOIMENTOS*/
+@import url("./home/depoimentos.css");
+
+/*LISTA DE SEGUROS*/
+@import url("./home/seguros.css");
+
+/*PAGINA DE TERMOS*/
+@import url("./termos/termos.css");
+
+/*PAGINA DE MOTO GERAL*/
+@import url("./motos/motos.css");
+
+/*PAGINA MOTOS ESPECIFICA*/
+@import url("./moto/moto.css");
+@import url("./moto/seguro.css");
+
+/*PAGINA DE CONTATO*/
+@import url("./contato/contato.css");
+@import url("./contato/lojas.css");
+
+
+/*PAGINA DE CONTATO*/
+@import url("./orcamento/orcamento.css");
+
+
+/*PAGINA DE SEGUROS*/
+@import url("./seguros/seguros.css");
+@import url("./seguros/vantagens.css");
+@import url("./seguros/perguntas.css");
+
+/*FOOTER*/
+@import url("./global/footer.css");
