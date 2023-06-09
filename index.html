@@ -6,14 +6,22 @@
         <title>Urban Tork</title>
         <meta name="description" content="Motos com estilo, alta precisão e qualidade. Explore o mundo na sua velocidade com a UrbanTork">
 
-        <link rel="preload" href="./css/style.css" as="style">
-                <link rel="preload" href="./css/style.css" as="style">
-        <link rel="stylesheet" href="./css/style.css">
+
+        <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+        <link rel="preload" href="./css/style.min.css" as="style">
+        <link rel="stylesheet" href="./css/style.min.css">
         
         <!--Fonte Depoimento-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
+        
+        <script>document.documentElement.classList.add('js')</script>
+        
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700;1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 
     </head>
     <body>
@@ -38,7 +46,7 @@
                 <div class="introducao-conteudo">
                     <h1 class="font-1-xxl cor-0"> Moto feitas para seu estilo<span class="cor-p1">.</span></h1>
                     <p class="font-2-l cor-5">Motos com estilo, alta precisão e qualidade. Explore o mundo na sua velocidade com a UrbanTork.</p>
-                    <a class="botao" href="/moto.html"> Escolha a sua </a>
+                    <a class="botao" href="/motos.html"> Escolha a sua </a>
                 </div>
                 <picture>
                     <img src="./img/fotos/introducao.jpg" width="480"  height="630" alt="Moto">
@@ -140,7 +148,7 @@
                         <li>Suporte 08h às 18h</li>
                         <li>Cobertura estadual</li>
                     </ul>
-                    <a class="botao secundario" href="./orcamento.html">Inscreva-se</a>
+                    <a class="botao secundario" href="./orcamento.html?tipo=seguro&produto=prata">Inscreva-se</a>
                 </div>
                 <div class="seguros-item">
                     <h3 class="font-1-xl cor-p1">OURO</h3>
@@ -153,7 +161,7 @@
                         <li>Desconto em parceiros</li>
                         <li>Acesso ao Clube UrbanTork</li>
                     </ul>
-                    <a class="botao" href="./orcamento.html">Inscreva-se</a>
+                    <a class="botao" href="./orcamento.html?tipo=seguro&produto=ouro">Inscreva-se</a>
                 </div>
             </div>
         </article>
@@ -188,5 +196,6 @@
                 <p class="footer-copy font-2-m cor-6">UrbanTork © Alguns direitos reservados.</p>
             </div>
         </footer>
+        <script src="./js/script.js"></script>         
     </body>
 </html>
